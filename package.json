@@ -1,18 +1,20 @@
 {
   "name": "weather-sdk-pro",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Cross-language SDK for OpenWeather API",
+  "main": "src/core/WeatherSdk.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "demo": "node demo/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mo1kovanton/Weather-SDK-Pro.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "mo1kovanton",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/mo1kovanton/Weather-SDK-Pro/issues"
