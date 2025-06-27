@@ -28,7 +28,7 @@ git clone https://github.com/mo1kovanton/Weather-SDK-Pro
 
 - Простая инициализация:
 <pre>
-js const { WeatherSdk } = require("weather-sdk-pro"); 
+const { WeatherSdk } = require("weather-sdk-pro"); 
 const sdk = new WeatherSdk({ apiKey: process.env.WEATHER_API_KEY, 
 mode: "ON_DEMAND", // или "POLLING" 
 intervalMin: 10 // интервал обновления кэша (минуты) }); 
